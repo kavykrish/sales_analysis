@@ -1,0 +1,7 @@
+data_ingestion:
+  source_path: "data/external_sources/data.csv"
+  destination_path: "data/rawdata/rawdata.csv"
+
+data_processing:
+  rawdata_path: "data/rawdata/rawdata.csv"
+  processed_path: "data/processed_data/pdata.csv"
